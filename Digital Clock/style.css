@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body, .time, .left-side, .right-side, .right-top, .right-down{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    min-height: 80vh;
+
+}
+.digital-clock, .time, .right-side, .right-top, .right-down{
+    position: relative;
+
+}
+
+
+.digital-clock{
+    color: white;
+    background-color: black;
+    width: 425px;
+    padding: 20px 45px;
+    box-sizing: 0 5px 25px rgba(14,21,37,.8);
+    border-radius: 10px;
+
+}
+
+#hours{
+    font-weight: 600px;
+    padding: 0 10px;
+    line-height: 125px;
+    font-size: 8em;
+    background: -webkit-linear-gradient(90deg, blue, white);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.right-side{
+
+    flex-direction: column;
+}
+
+#dots{
+
+    font-size: 4em;
+    transform: translateX(-3px);
+    color: gray;
+
+}
+#minutes{
+    font-size: 5em;
+    font-weight: 500;
+    margin-left: 10px;
+    background: -webkit-linear-gradient(90deg, orchid, white);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+
+}
+
+.right-down{
+    margin-left: 10px;
+    transform: translateY(-25px);
+}
+
+#period, #second{
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-left: 10px;
+
+}

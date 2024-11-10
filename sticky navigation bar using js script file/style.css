@@ -1,0 +1,52 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+    color: grey;
+    font-family: sans-serif;
+
+}
+
+header{
+    text-align: center;
+    margin: 16px;
+}
+
+nav{
+    text-align: center;
+padding: 10px;
+background: green;
+
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+   font-size: 24px;
+    display: inline-block;
+    padding: 5px;
+    color: white;
+   
+    margin: 10px;
+}
+
+nav ul li:hover{
+    color: red;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#container{
+    text-align: center;
+    margin-top: 60px;
+}
+
+#container img{
+    width: 100%;
+    padding: 30px 0px;
+}
